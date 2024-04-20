@@ -6,6 +6,27 @@
     <title>Document</title>
     <!-- 1024x768 -->
     <!-- 800x600 -->
+    <style>
+        details{
+            border-radius: 20px;
+            background-image: linear-gradient(135deg, #000, crimson, darkgreen);
+            color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+            width: 40%;
+        }
+
+        summary{
+            font-weight: bold;
+        }
+
+        section{
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            align-items: baseline;
+        }
+    </style>
 </head>
 <body>
     <center>
@@ -17,6 +38,27 @@
     <h1>Encabezado H1</h1>
     <h2>Encabezado H2</h2>
     <p>Soy un parrafo</p>
+   
+    <section>
+        <details name="req">
+            <summary>Requerimientos</summary>
+            <ul>
+                <li>Acceso a internet</li>
+                <li>Dispositivo para visualizar las clases</li>
+                <li>Dispositivo para realizar las tareas propuestas</li>
+                <li>Editor de código (incluso el Bloc de Notas)</li>
+            </ul>
+        </details>
+        <details name="req">
+            <summary>Requerimientos 2</summary>
+            <ul>
+                <li>Acceso a internet</li>
+                <li>Dispositivo para visualizar las clases</li>
+                <li>Dispositivo para realizar las tareas propuestas</li>
+                <li>Editor de código (incluso el Bloc de Notas)</li>
+            </ul>
+        </details>
+    </section>
     <p>
         <b>Texto en negrita 1</b>
         <strong>Texto en negrita 2</strong>
