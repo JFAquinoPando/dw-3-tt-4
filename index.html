@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="texto" name="formulario" action="./prueba.html" enctype="multipart/form-data" method="post">
+        <input type="file" name="archivo" id="">
+
+        <label for="pais">Selecciona un país </label>
+        <select name="pais_elegido" id="pais">
+            <optgroup label="Sudamerica">
+                <option value="py">Paraguay</option>
+                <option value="ar">Argentina</option>
+                <option value="uy">Uruguay</option>
+                <option value="ve">Venezuela</option>
+                <option value="br">Brasil</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="es">España</option>
+                <option value="uk">Inglaterra</option>
+            </optgroup>
+        </select>
+
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>
